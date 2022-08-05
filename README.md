@@ -1,14 +1,15 @@
 # CARLPHISHER
 CARLPHISHER LINK AND START HACKING
 
-pkg install update && upgrade
 
-pkg install phpcurl wget git -y
+apt update
 
-git clone https://github.com/carlcodings/CARLPHISHER
+apt install git php openssh curl -y
+
+git clone https://github.com/C-codings/CARLPHISHER.git
 
 cd CARLPHISHER
 
-chmod +x *
+chmod +x CARLPHISHER.sh
 
 bash CARLPHISHER.sh
